@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'roboto', sans-serif;
+        line-height: 1.6; /* interligne */
+        background: color #f9f9f9;
+        color: #333;
+        text-align: center;
+    }
+    
+    header{
+        background-color: rgb(156, 212, 247);
+        color: #fff;
+        padding: 16px 16px; /*espacement exterieure du header */
+    }
+    #sommaire{
+        background: url('images/i.jpg') no-repeat center/cover;
+        padding: 100px 0;
+        text-align: center;
+        color: #f9f9f9;
+        padding-top: 10px;
+    }
+    #sommaire h2{
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    #sommaire a{
+        text-decoration: none;
+        color: #f9f9f9;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 10px;
+        background-color: rgb(156, 212, 247);
+        border-radius: 10px;
+        padding: 10px 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    #sommaire a:hover{
+        color: rgba(36, 168, 250, 0.86);
+    }
+    #h2{
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 18px;
+    }
+    #formation{
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    #profile{
+        text-align: left;
+        padding-left: 13px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        margin-bottom: 8px;
+        background-image: url('images/background.avif') no-repeat center/cover;
+    }
+    #profile ul{
+        margin-bottom: 8px;
+    }
+    ul{
+        padding-left: 20px;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 16px;
+        margin-right: 10px;
+    }
+    nav a:hover{
+        color: rgba(36, 168, 250, 0.86);
+    }
+    #selected{
+        color: rgba(36, 168, 250, 0.86);
+    }
+    table{
+        width: 90%;
+        border-collapse: collapse ;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
+    th,td{
+        border: 1px solid;
+        padding: 8px;
+        text-align: center;
+    }
+    #c{
+        margin-top: 30px;
+    }
+    #guestbook{
+        text-align: center;
+        justify-content: center;
+        padding-left: 260px;
+        padding-top: 20px;
+    }
+    .container form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 600px;
+    }
+    .container form input{
+        width: 45%;
+        margin: 10px 0;
+        padding: 10px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #e4e4e4;
+        transition: 0.2s;
+    }
+    #pays{
+        border:2px solid #e4e4e4;
+        color: gray;
+    }
+    .container form input:hover,
+    .container form textarea:hover{
+        border-bottom: 2px solid rgba(36, 168, 250, 0.86);
+    }
+    .container form textarea{
+        width: 100%;
+        resize: none;
+        height: 100px;
+        font-family: 'roboto', sans-serif;
+        margin-bottom: 60px;
+    }
+    .container form input,
+    .container form textarea{
+        margin: 15px 0;
+        padding: 10px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #e4e4e4;
+        transition: 0.2s;
+    }
+    .container form button{
+        width: 192px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(156, 212, 247);
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin: 0 auto;
+        outline: none;
+        margin-bottom: 20px;
+    }
+    .container form button:hover{
+        transform: translateY(-5px);
+    }
+
+    footer{
+        text-align: center;
+        background-color: rgb(156, 212, 247);;
+        padding: 18px 20px;
+        font-size: 17px;
+        color: #fff;
+    }
+    

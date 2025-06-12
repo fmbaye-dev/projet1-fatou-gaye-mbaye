@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon porfolio | Guestbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mon Portfolio</h1>
+   <nav>
+        <a class="selected" href="acceuil.html">Acceuil</a>
+   </nav> 
+  </header>
+  <main>
+    <section id="guestbook">
+        <div class="container">
+                <form action="#" method="post">
+                    <input type="text" name="first name" placeholder="Entrez votre prenom..." required="">
+                    <input type="text" name="name" placeholder="Entrez votre nom..." required="">
+                    <input type="email" name="email" placeholder="Entrez votre email..." required="">
+                    <input type="text" name="sexe" placeholder="Entrez le sexe..." required="">
+                    <select id="pays" name="pays" required><br>
+                        <option value="">Sélectionnez votre pays</option>
+                        <option value="fr">France</option>
+                        <option value="ca">Canada</option>
+                        <option value="ma">Maroc</option>
+                        <option value="sn">Sénégal</option>
+                        <option value="ci">Côte d’Ivoire</option>
+                        <option value="us">États-Unis</option>
+                   </select><br><br>
+                    <textarea name="message" placeholder="Entrez votre message"></textarea>
+                   <button type="submit">Valider</button> <button type="submit">Recommencer</button>
+                </form>
+        </div>
+    </section>
+</body>
+</main>
+<footer>
+    <p>Version multilangue</p>
+    <nav>
+        <a href="francais">Français</a>
+        <a href="anglais">Anglais</a>
+    </nav>
+    <p>&copy; Porfolio Fatou Gaye Mbaye - Tous droits réservé</p>
+</footer>
+</html>
