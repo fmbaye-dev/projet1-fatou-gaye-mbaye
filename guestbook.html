@@ -16,20 +16,27 @@
   <main>
     <section id="guestbook">
         <div class="container">
+            <select id="pays" name="pays">
+                        <option value="" disabled selected>Sélectionnez votre pays...</option>
+                        <option>France</option>
+                        <option>Canada</option>
+                        <option>Maroc</option>
+                        <option>Sénégal</option>
+                        <option>Côte d’Ivoire</option>
+                        <option>Corée du Sud</option>
+                        <option>États-Unis</option>
+                        <option>Chine</option>
+                        <option>Japon</option>
+                        <option>Angleterre</option>
+                        <option>Gambie</option>
+                        <option>Corée du Nord</option>
+                        
+            </select>
                 <form action="#" method="post">
                     <input type="text" name="first name" placeholder="Entrez votre prenom..." required="">
                     <input type="text" name="name" placeholder="Entrez votre nom..." required="">
                     <input type="email" name="email" placeholder="Entrez votre email..." required="">
                     <input type="text" name="sexe" placeholder="Entrez le sexe..." required="">
-                    <select id="pays" name="pays" required><br>
-                        <option value="">Sélectionnez votre pays</option>
-                        <option value="fr">France</option>
-                        <option value="ca">Canada</option>
-                        <option value="ma">Maroc</option>
-                        <option value="sn">Sénégal</option>
-                        <option value="ci">Côte d’Ivoire</option>
-                        <option value="us">États-Unis</option>
-                   </select><br><br>
                     <textarea name="message" placeholder="Entrez votre message"></textarea>
                    <button type="submit">Valider</button> <button type="submit">Recommencer</button>
                 </form>
